@@ -54,10 +54,10 @@
         .profile-container input[type="email"],
         .profile-container input[type="nohp"] {
             padding: 10px;
-            margin-bottom: 15px;
+            margin-bottom: 14px;
             border: 1px solid #dddddd;
             border-radius: 4px;
-            font-size: 15px;
+            font-size: 14px;
         }
 
         .profile-container input[type="submit"] {
@@ -110,11 +110,6 @@
         <br>
 
         <?php
-        $nim = $_POST['nim'];
-        $nama = $_POST['nama'];
-        $kelas = $_POST['kelas'];
-        $email = $_POST['email'];
-        $nohp = $_POST['nohp'];
 
 
             if (isset($_POST['simpan'])) {
